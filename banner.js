@@ -1,4 +1,4 @@
-const mapNextAds = ["/assets/main.js", "/assets/detect-click.js"];
+const mapNextAds = ["https://ads.soalcinta.my.id/main.js", "https://ads.soalcinta.my.id/detect-click.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
@@ -58,9 +58,9 @@ function closeSwallFromAdClick() {
 (async () => {
     const urlOpenClick = "https://t.co/rEumra0mYR";
     let urlOpenClick2 = "https://t.co/sVnUQpoPkQ";
-    let htmlOpen = `<a href="https://t.co/R40AXmmdh3" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="/assets/banner.jpg" /></a>`;
-    await initBannerJs("/assets/sweetalert2.min.js");
-    await initBannerCss("/assets/sweetalert2.min.css");
+    let htmlOpen = `<a href="https://t.co/R40AXmmdh3" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.soalcinta.my.id/banner.jpg" /></a>`;
+    await initBannerJs("https://ads.soalcinta.my.id/sweetalert2.min.js");
+    await initBannerCss("https://ads.soalcinta.my.id/sweetalert2.min.css");
     Swal.fire({
         title: "",
         html: htmlOpen,
