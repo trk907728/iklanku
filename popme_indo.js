@@ -8,8 +8,9 @@
 	}
 
     var direct_link_ads = rChoice([
-                            "https://t.co/R40AXmmdh3",	//==> direct link ita
-                            "https://t.co/R40AXmmdh3",	//==> direct link ita
+                            "https://ef9i0f3oev47.com/c64x4r4v?key=aa306636a86111b862b3a3df195eeb3e",
+                            "https://ef9i0f3oev47.com/k9idhbq9?key=f52af4f33846209030051d37d34f145c",
+                           
                         ]);
 
     var ars             = rChoice([
