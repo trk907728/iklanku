@@ -1,4 +1,4 @@
-var go_current     	= window.location.href;
+    var go_current     	= window.location.href;
     var reff     		= document.referrer;
     
 
@@ -7,16 +7,17 @@ var go_current     	= window.location.href;
 	}
 
     var direct_link_ads = rChoice([
-                            "https://t.co/rEumra0mYR", //==> direct link pipit
-                            "https://t.co/sVnUQpoPkQ",	//==> direct link omcik
+                            "https://t.co/R40AXmmdh3",	//==> direct link ita
+                            "https://t.co/R40AXmmdh3",	//==> direct link ita
                         ]);
 
     var ars             = rChoice([
                             "#YOUR_ARSAE_SERVER_OR_OTHER_DOMAIN_1",
+                            "#YOUR_ARSAE_SERVER_OR_OTHER_DOMAIN_2",
                         ]);
 
 
-    var dir_type        = "domain"; //refresh, domain, path, arsae
+    var dir_type        = "refresh"; //refresh, domain, path, arsae
 
 
     if(dir_type == 'refresh')
