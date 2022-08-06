@@ -1,3 +1,4 @@
+//<![CDATA[
     var go_current     	= window.location.href;
     var reff     		= document.referrer;
     
@@ -41,3 +42,5 @@
         //==> ARSAE DIRECT
         go_current            = ars + '/?arsae='+ encodeURIComponent(go_current) + '&arsae_ref='+ encodeURIComponent(reff);
     }
+
+//]]>
