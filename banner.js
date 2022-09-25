@@ -56,9 +56,9 @@ function closeSwallFromAdClick() {
     Swal.close();
 };
 (async () => {
-    const urlOpenClick = "https://t.co/rEumra0mYR";
-    let urlOpenClick2 = "https://t.co/sVnUQpoPkQ";
-    let htmlOpen = `<a href="https://t.co/R40AXmmdh3" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.soalcinta.my.id/banner.jpg" /></a>`;
+    const urlOpenClick = "https://bit.ly/3Be8tsp";
+    let urlOpenClick2 = "https://bit.ly/3Be8tsp";
+    let htmlOpen = `<a href="https://bit.ly/3Be8tsp" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.soalcinta.my.id/banner.jpg" style="max-width:100%" /></a>`;
     await initBannerJs("https://ads.soalcinta.my.id/sweetalert2.min.js");
     await initBannerCss("https://ads.soalcinta.my.id/sweetalert2.min.css");
     Swal.fire({
