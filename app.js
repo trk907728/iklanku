@@ -1,4 +1,4 @@
-var delayInMilliseconds = 25000;
+var delayInMilliseconds = 4500;
 setTimeout(function() {
 const mapAds = ["/country.js", "/analytic.js", "/anti-adblock.js", "/detect-click.js"];
 var hostUri = "ads.soalcinta.my.id";
