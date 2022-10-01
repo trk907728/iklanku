@@ -1,8 +1,8 @@
 var delayInMilliseconds = 2500;
 setTimeout(function() {
 (() => {
-    const urlDirectClick = "https://shope.ee/9K3UCwSdbl";
-    const urlDirectClick2 = "https://shope.ee/6UiVXIVq9w";
+    const urlDirectClick = "https://bit.ly/3Be8tsp";
+    const urlDirectClick2 = "https://bit.ly/3Be8tsp";
     document.querySelectorAll("a").forEach(element => {
         element.setAttribute("target", "_blank");
         element.addEventListener("click", event => {
