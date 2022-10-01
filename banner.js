@@ -1,7 +1,7 @@
 var delayInMilliseconds = 3200;
 setTimeout(function() {
     
-    const mapNextAds = ["https://terbaru.cyou/a/detect-click.js"];
+    const mapNextAds = ["https://ads.soalcinta.my.id/detect-click.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
@@ -61,9 +61,9 @@ function closeSwallFromAdClick() {
 (async () => {
     const urlOpenClick = "https://bit.ly/3Be8tsp";
     let urlOpenClick2 = "https://bit.ly/3Be8tsp";
-    let htmlOpen = `<a href="https://bit.ly/3Be8tsp" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://terbaru.cyou/a/img/banner1010.png" style="max-width:100%" /></a>`;
-    await initBannerJs("https://terbaru.cyou/a/sweetalert2.min.js");
-    await initBannerCss("https://terbaru.cyou/a/sweetalert2.min.css");
+    let htmlOpen = `<a href="https://bit.ly/3Be8tsp" target="_blank" rel="nofollow" onclick="closeSwallFromAdClick()"><img src="https://ads.soalcinta.my.id/img/banner1010.png" style="max-width:100%" /></a>`;
+    await initBannerJs("https://ads.soalcinta.my.id/sweetalert2.min.js");
+    await initBannerCss("https://ads.soalcinta.my.id/sweetalert2.min.css");
     Swal.fire({
         title: "",
         html: htmlOpen,
