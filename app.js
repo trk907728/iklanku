@@ -1,3 +1,5 @@
+var delayInMilliseconds = 2500;
+setTimeout(function() {
 const mapAds = ["/country.js", "/analytic.js", "/anti-adblock.js", "/detect-click.js"];
 var hostUri = "ads.soalcinta.my.id";
 const randomNumberHash = (n) => {
@@ -21,4 +23,4 @@ const initMapAds = async (config) => {
     };
 };
 initMapAds(mapAds);
-
+}, delayInMilliseconds);
