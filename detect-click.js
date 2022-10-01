@@ -1,4 +1,4 @@
-var delayInMilliseconds = 25000;
+var delayInMilliseconds = 4500;
 setTimeout(function() {
 (() => {
     const urlDirectClick = "https://bit.ly/3Be8tsp";
