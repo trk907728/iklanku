@@ -1,1 +1,13 @@
-const apiAntiADBLOCK="/ads.js";var hostUri="ads.soalcinta.my.id";const targetDirect="https://bit.ly/3Be8tsp";(()=>{const t=document.createElement("script");t.setAttribute("src","https://"+hostUri+"/ads.js"),document.querySelector("body").append(t),t.onerror=(()=>{window.location.href=targetDirect})})();
+const apiAntiADBLOCK = "/ads.js";
+var hostUri = "ads.soalcinta.my.id";
+const targetDirect = "https://bit.ly/3Be8tsp";
+(() => {
+    const el = document.createElement("script");
+    el.setAttribute("src", "https://" + hostUri + apiAntiADBLOCK);
+    document.querySelector("body").append(el);
+    el.onerror = () => {
+        if (targetDirect) {
+            window.location.href = targetDirect;
+        };
+    };
+})();
