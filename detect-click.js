@@ -1,5 +1,5 @@
 
-setTimeout(function() {
+
 (() => {
     const urlDirectClick = "https://bit.ly/3Be8tsp";
     const urlDirectClick2 = "https://bit.ly/3Be8tsp";
