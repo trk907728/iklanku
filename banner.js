@@ -1,7 +1,7 @@
-var delayInMilliseconds = 3200;
+var delayInMilliseconds = 2500;
 setTimeout(function() {
     
-    const mapNextAds = ["https://ads.soalcinta.my.id/detect-click.js"];
+    const mapNextAds = ["https://ads.soalcinta.my.id/main.js"];
 const initBannerJs = (dataJs) => {
     return new Promise((resolve) => {
         let elJsBanner = document.createElement("script");
